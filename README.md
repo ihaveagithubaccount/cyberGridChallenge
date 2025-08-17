@@ -124,7 +124,8 @@ curl -X PUT "http://localhost:8080/api/v1/products/1" \
   -d '{
     "name": "Updated Product",
     "description": "Updated description",
-    "price": 149.99
+    "price": 149.99,
+    "status": "DELETED"
   }'
 ```
 
